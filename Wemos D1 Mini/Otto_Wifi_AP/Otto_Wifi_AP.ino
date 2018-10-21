@@ -141,7 +141,7 @@ void handleBEND() {
 void setup() {
   Serial.begin(115200);
   Serial.println();
-  Serial.println("Starting: Please connect to DIYODE-AP")
+  Serial.println("Starting: Please connect to DIYODE-AP");
 
   WiFi.mode(WIFI_AP);
   WiFi.softAP("DIYODE-AP", "1234");
